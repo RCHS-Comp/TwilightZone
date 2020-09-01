@@ -1,6 +1,16 @@
 ########################################################
 #                  Harry Nelsen 2020                   #
 ########################################################
+                                                       #
+echo "You're traveling through another dimension --"   # Twilight Zone intro
+echo "a dimension not only of sight and sound"         #
+echo "but of mind. A journey into a wondrous land"     #
+echo "whose boundaries are that of imagination."       #
+echo "That's a signpost up ahead: your next stop:"     #
+echo "the Twilight Zone!"                              #
+                                                       #
+sleep 3                                                #
+                                                       #
 pkg install root-repo x11-repo                         # Setup repos
                                                        #
 pkg update; pkg upgrade                                # Update the already installed packages
@@ -18,5 +28,13 @@ echo "i3 &" > ~/.vnc/xstartup                          # Overwrite VNC startup
 chmod 777 ~/.vnc/xstartup                              #
 ~/start_server                                         # Start VNC server / Config for first time
 echo "Connect to localhost:5901 via VNC"               # Tell user where to connect to
-echo "Replace 1 with your current display."            #
+echo "By default your display is set to 1."            #
+echo "If you wish to change that, replace the 1"       #
+echo "With the display number."                        #
+                                                       #
+echo "To launch server:" > ~/README                    # Make README file
+echo -e "./start_server\n" >> ~/README                 #
+echo "To stop server:" >> ~/README                     #
+echo -e "./stop_server\n" >> ~/README                  #
+echo "(c) Harry Nelsen 2020" ~/README                  #
 ########################################################
