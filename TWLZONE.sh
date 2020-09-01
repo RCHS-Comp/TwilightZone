@@ -7,7 +7,7 @@ echo "a dimension not only of sight and sound"          #
 echo "but of mind. A journey into a wondrous land"      #
 echo "whose boundaries are that of imagination."        #
 echo "That's a signpost up ahead: your next stop:"      #
-echo "the Twilight Zone!"                               #
+echo -e "the Twilight Zone!\n"                          #
                                                         #
 sleep 3                                                 #
                                                         #
