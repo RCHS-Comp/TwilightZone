@@ -6,6 +6,6 @@ A simple script to assist in creating a sandboxed environment with [X11](https:/
 
 ## Usage
 
-Download the script and in the same directory run `chmod 777 TWLZONE.sh` to make it executable
+Download the script and in the same directory run `chmod 777 TWLZONE.sh` to make it executable.
 
-Run `./TWLZONE.sh` if you're in the same directory as the script, otherwise append the path to the beginning
+Run `./TWLZONE.sh` if you're in the same directory as the script, otherwise append the path to the beginning.
